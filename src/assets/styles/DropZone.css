@@ -1,0 +1,32 @@
+.drop__area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 1px #61dafb dashed;
+    position: relative;
+}
+
+.drop__area--active {
+    border: 1px #5de514 solid;
+}
+
+.loaded_image {
+    max-width: 320px;
+}
+
+.hidden {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    display: none;
+}
+.label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
